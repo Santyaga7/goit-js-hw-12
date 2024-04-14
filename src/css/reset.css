@@ -22,15 +22,19 @@ ul {
 a {
   color: currentColor;
   text-decoration: none;
-  list-style: none;
 }
 
 button {
   cursor: pointer;
+  border: none;
+  font-family: inherit;
 }
 
 img {
   display: block;
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
+}
+input {
+  outline: none;
 }
